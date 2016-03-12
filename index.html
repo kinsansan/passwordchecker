@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>password check</title>
+        <link rel="stylesheet" href="all.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>パスワード強度確認</h1>
+        </div>
+        <div id="main">
+            <h2>パスワードを入力すると強度を表示します。</h2>
+            <form name="js">
+                password:<input type="text" name="tex" id="txtb" value=""><br>
+            </form> 
+            <p>強いパスワードとは?</p>
+            <ul>
+                
+                <li>パスワードが長いこと、できれば8文字以上。</li>
+		<li>数字が含まれていること。</li>
+                <li>英小文字が含まれていること。</li>
+                <li>英大文字が含まれていること。</li>
+                <li>記号が含まれていること。</li>
+            </ul>
+        </div>    
+        <div id="output">使用可能か:<br>文字数:<br>数字:<br>小文字:<br>大文字:<br>記号:<br>強度:</div>
+        <script type="text/javascript" src="check.js"></script>
+    </body>
+</html>
+
